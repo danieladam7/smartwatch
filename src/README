@@ -1,0 +1,15 @@
+The One s2 - a simple smartwatch
+
+JAVA OOP
+
+Design pattern
+- constructional : singleton with polymorphism
+- behavioral     : state pattern
+
+Class : The One s2 is the singleton
+Class : ModeBase is superclass with successors for each mode
+        Button A is same for all modes therefore implemented in superclass
+        Buttons B and C are different therefore implemented by each mode differently (polymorphism)
+
+Class: AlarmClock is helper class for mode Hour
+Class: Stopwatch is helper class for mode Stopwatch
