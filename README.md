@@ -1,6 +1,7 @@
-# Project Name
+# A simple Smartwatch
 
-This project involves the development of a simple smartwatch using Java. The smartwatch can display the current time, and date, and has features such as an alarm clock and stopwatch.
+This project involves the development of a simple smartwatch using Java.
+The smartwatch can display the current time, and date, and has features such as an alarm clock and stopwatch.
 It demonstrates various functionalities like time management, date display, and branding.
 
 ## Tech Stack 💻
@@ -8,20 +9,26 @@ It demonstrates various functionalities like time management, date display, and 
 
 - Java was used to develop the entire smartwatch application, leveraging its object-oriented features to effectively manage different modes and functionalities.
 
+## Design 📐
+
+- Object-oriented programming principles to structure the different functionalities of the smartwatch into various classes.
+- Design patterns such as Singleton, Polymorphism, and State Pattern.
+
+
 ## Features 🏆
-- Feature 1: Time Display
+- Time Display:
 The smartwatch can display the current time in AM/PM format using the HourMode class.
 
-- Feature 2: Date Display
+- Date Display:
 The smartwatch can display the current date and the day of the week using the DateMode class.
 
-- Feature 3: Alarm Clock
+- Alarm Clock:
 An alarm clock feature that starts after a set time, managed through the AlarmClock class.
 
-- Feature 4: Stopwatch
+- Stopwatch:
 A fully functional stopwatch managed through the StopwatchMode class.
 
-- Feature 5: Branding
+- Branding:
 A branding message written to an output file using the BrandMode class.
 
 ## Deployment 🌐
